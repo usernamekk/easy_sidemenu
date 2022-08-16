@@ -10,7 +10,7 @@ class SideMenu extends StatefulWidget {
   final PageController controller;
 
   /// List of [SideMenuItem] to show them on [SideMenu]
-  final List<SideMenuItem> items;
+  final List<Widget> items;
 
   /// Title widget will shows on top of all items,
   /// it can be a logo or a Title text
